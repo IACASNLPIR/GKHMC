@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82d765bf-2d24-4bd0-a387-88d86d81c3cb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/GKHMC.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/classifier/baikeClassify/BaikeClassifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/classifier/baikeClassify/GetAllWords.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/classifier/baikeClassify/GetClassifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/classifier/baikeClassify/PrepareTrainFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/classifier/baikeClassify/Vector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/classifier/baikeClassify/svm_predict.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/classifier/baikeClassify/svm_train.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/classifier/questionType/QuestionStemType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/classifier/questionType/RuleQuestionCandidateType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/classifier/questionType/bayesianQuestionCandidateType/Probability.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/classifier/questionType/bayesianQuestionCandidateType/QuestionTypeNBC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/classifier/questionType/bayesianQuestionCandidateType/Statistics.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/QuotationSource/BaikeQuotation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/coreferenceResolution/Init.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/coreferenceResolution/Regex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/coreferenceResolution/Stem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/emnlp2016/AutoClassifyAndSolve.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/emnlp2016/InfluenceOfGrainOfIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/entityLinking/EntityRetrieval.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/entityLinking/ExtractEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/entityLinking/LinkInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/entityLinking/QuestionDeal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/tmp/MyTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/tmp/SearchIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/tmp/TestANSJ.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/tmp/TestGetBaikeTime.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/tmp/TestXMLQuestion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/dev/topic/TopicFinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/main/AnswerPredictor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/main/Const.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/main/QuestionFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/main/QuestionScores.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/main/ScoreCombination.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/main/ScoreFunctionFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/others/historyTime/HistoryPeriod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/others/historyTime/HistoryTimeNormalize.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/others/historyTime/PredictBaikeTime.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/question/Perceptron.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/question/Question.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/question/QuestionAcquisition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/question/QuestionAnalyzer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/question/QuestionCandidate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/question/QuestionClassifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/Score.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/entityCooccurrence/CooccurScore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/entityCooccurrence/IndexSearcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/entityLinks/DataLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/entityLinks/IndexBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/entityLinks/LinkScore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/searchScore/SearchScore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/searchScore/buildIndex/BuildBaikeFragmentIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/searchScore/buildIndex/BuildBaikeIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/searchScore/buildIndex/BuildBookIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/searchScore/buildIndex/BuildHistoryTimelineIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/searchScore/buildIndex/BuildIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/searchScore/retrivealMethods/ConcreteStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/searchScore/retrivealMethods/Lab.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/searchScore/retrivealMethods/MethodContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/searchScore/retrivealMethods/QueryBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/searchScore/retrivealMethods/QuestionInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/searchScore/retrivealMethods/Retrieval.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/searchScore/retrivealMethods/Strategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/scores/searchScore/retrivealMethods/TakeExam.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/tools/ANSJSEG.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/tools/Corpus/CorpusHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/tools/Corpus_GBK2UTF8.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/tools/MemNet/JieXi2rnntrain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/tools/MemNet/Question4Jiexi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/tools/NER.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/tools/OutputQuestion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/tools/RNN/Dict4RNN.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/tools/RNN/LineText2Words.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/tools/SearchBaike.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/tools/SegCorpus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/tools/zxr/CollectionOperates.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRapproach/src/edu/tools/zxr/MyReadIn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NNapproach/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NNapproach/layers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NNapproach/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NNapproach/optimizers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NNapproach/reader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NNapproach/run_dmn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NNapproach/run_epoch.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NNapproach/run_kbmn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NNapproach/run_memnn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/Gaokao744.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/tiku.xml" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../structured-attention" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/NNapproach/models.py" />
+        <option value="$PROJECT_DIR$/NNapproach/layers.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="30" />
+    <option name="width" value="1920" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GKHMC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structured-attention" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GKHMC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structured-attention" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sampledata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GKHMC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GKHMC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../structured-attention" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GKHMC" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GKHMC" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GKHMC" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GKHMC" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="GKHMC" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GKHMC" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GKHMC" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GKHMC" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GKHMC" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GKHMC" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82d765bf-2d24-4bd0-a387-88d86d81c3cb" name="Default" comment="" />
+      <created>1481961080915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1481961080915</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="30" width="1920" height="1050" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14132762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../structured-attention/snli.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../structured-attention/trainer.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNapproach/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNapproach/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8970">
+          <caret line="349" column="38" lean-forward="false" selection-start-line="349" selection-start-column="38" selection-end-line="349" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNapproach/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNapproach/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNapproach/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8970">
+          <caret line="349" column="38" lean-forward="false" selection-start-line="349" selection-start-column="38" selection-end-line="349" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNapproach/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNapproach/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNapproach/optimizers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2496">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNapproach/reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2340">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNapproach/run_dmn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2808">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNapproach/run_epoch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-988">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNapproach/run_kbmn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1638">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNapproach/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8970">
+          <caret line="349" column="38" lean-forward="false" selection-start-line="349" selection-start-column="38" selection-end-line="349" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NNapproach/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="484" column="0" lean-forward="false" selection-start-line="484" selection-start-column="0" selection-end-line="484" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../structured-attention/node_alignment.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2730">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../structured-attention/simpleprofiler.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../structured-attention/tree.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2704">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../structured-attention/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../structured-attention/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../structured-attention/trainer.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../structured-attention/snli.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
