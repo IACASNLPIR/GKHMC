@@ -28,7 +28,7 @@ options = OrderedDict(
         'out_size': 2,  # number of units in output layer
         'patience': 10,  # Number of epoch to wait before early stop if no progress
         'max_epochs': 100000,  # The maximum number of epoch to run
-        'lrate': 0.1,  # Learning rate for sgd (not used for adadelta and rmsprop)
+        'lrate': 0.001,  # Learning rate for sgd (not used for adadelta and rmsprop)
         'optimizer': optimizers.rmsprop,  # sgd, adadelta and rmsprop available, sgd very hard to use, not recommanded (probably need momentum and decaying learning rate).
         'valid_freq': 5,  # Compute the validation error after this number of update.
         'maxlen': 100,  # Sequence longer then this get ignored
